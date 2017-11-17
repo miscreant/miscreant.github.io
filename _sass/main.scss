@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+}
+
+nav .brand-logo {
+    width: 250px;
+    padding-top: 10px;
+}
+
+.icon-lang {
+    margin: 0 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.shadow-demo {
+    background-color: #26a69a;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+h1.page-title {
+    font-weight: 500;
+    font-size: 2.3em;
+    text-align: center;
+    color: #29b6f6;
+}
+
+.col.grid-example {
+    border: 1px solid #eee;
+    margin: 7px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    background-color: tomato;
+    color: white;
+    padding: 0;
+}
+
+.collection .collection-item.avatar {
+    padding-right: 30px;
+}
+
+.txt-center {
+    text-align: center;
+}
