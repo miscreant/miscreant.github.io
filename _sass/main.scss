@@ -63,6 +63,27 @@ h1.page-title {
     text-align: center;
 }
 
+#languages a {
+    display: inline-block;
+}
+
+#languages img
+{
+    position: relative;
+    top: 10px;
+    -webkit-transition: top 0.5s;
+    -moz-transition: top 0.5s;
+    -o-transition: top 0.5s;
+}
+
+#languages img:hover
+{
+    top: 0px;
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -o-transition: top 0.3s;
+}
+
 .page-footer {
 	margin-top: auto;
 }
